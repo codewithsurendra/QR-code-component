@@ -57,7 +57,7 @@ img {
     text-decoration: none;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 720px) {
     html {
         font-size: 56.3%;
     }
@@ -67,12 +67,12 @@ img {
     }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 375px) {
     html {
-        font-size: 56.3%;
+        font-size: 50%;
     }
 
     .qr-code {
-        margin: 9rem auto 1.5rem auto;
+        margin: 8rem auto 1.2rem auto;
     }
 }
